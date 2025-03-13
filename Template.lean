@@ -493,6 +493,7 @@ def checkCom (Γ : Env) (c: Com) : Bool :=
   sorry
 
 -- When you are done the below should automatically verify
+@[autogradedProof 20]
 theorem checkCom0 : checkCom Γ₀ com0 = true := by rfl
 
 @[autogradedProof 30]
